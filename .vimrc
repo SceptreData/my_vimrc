@@ -1,4 +1,8 @@
-" Set vim default shell to bash
+" Sceptre's .vimrc file
+"   Requires vim-plug for plugins
+
+
+" Set vim default shell to bash. (in case you use fish)
 set shell=/bin/sh
 
 " Plugins
@@ -81,7 +85,8 @@ call plug#end()
     set splitright
     set splitbelow
 
-    set showmatch      " Highlight matching Parentheses
+    " Highlight matching Parentheses
+    set showmatch      
 
     " Search settings
     set incsearch
